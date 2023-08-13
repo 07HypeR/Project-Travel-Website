@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	margin: auto;
+	background-image:url("R.jpg");
+	font-family: arial;
+    
+
+}
+.navigation{
+	margin:auto;
+	width: 860px;
+	padding: 0px 0px 0px 130px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+.navigation ul{
+	padding: 0;
+	list-style: none;;
+}
+.navigation ul li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right:  10px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	color: darkblue;
+	background:lightpink;
+	border-top: 1px dotted black;
+	border-left:1px dotted black;
+	border-right: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding: 10px 20px 10px 20px;
+    border-top-right-radius:10px; 
+    border-top-left-radius:10px; 
+     border-bottom-right-radius:10px; 
+    border-bottom-left-radius:10px; 
+    display: block;
+    text-align: right;
+}
+.navigation ul li a:hover{
+	text-decoration: none;
+	color:darkred;
+	background: lightgreen;
+}
+.navigation ul li a#onlink{
+background:grey;
+color: orange;
+border-bottom: 1px solid red;
+}
+
+.navigation ul li a#onlink:hover{
+background:white;
+color: orange;
+}
+
+
+
+.main{
+	margin: auto;
+	width: 860px;
+	padding: 10px;
+	border:1px solid red;
+	
+	background: lightyellow;
+	min-height: 600px;
+}
+
+.booking {
+	margin:0px;
+	padding:0px 100px 0px 0px;
+	border:1px solid black;
+	width: 150px;
+	float: left;
+	height: 630px;
+	background: lightblue;
+	font-size: medium;
+}
+
+.img{
+	
+	width:600px;
+	height: 340px;
+	padding: 0px 0px 10px 0px;
+	float: right;
+}
+
+.imgs{
+	width: 190px;
+	height: 220px;
+	padding: 0px 1px 0px 0px;
+	margin-left: 5px;
+	border:1px solid black;
+}
+.head1{
+	
+ margin-left:  30px;
+   font-family: algerian;
+}
+.head2{
+	
+  margin-left:  60px;
+    font-family: algerian;
+}
+.head3{
+	
+  margin-left:  95px;
+   font-family: algerian;
+}
+.head4{
+	
+  margin-left:  160px;
+   font-family: algerian;
+}
+
+.submit{
+	margin-left: 80px;
+	margin-top: 20px;
+	padding: 0px 50px 0px 50px;
+	font-size:large;
+	background-color:tomato ;
+   border-radius: 20px;
+   text-align: center;
+
+}
+.head{
+  margin: 2px;
+  margin-left: 150px;
+  font-family: algerian;
+}
+.holiday{
+	margin-left: 450px;
+  font-family: algerian;
+}
+
+
